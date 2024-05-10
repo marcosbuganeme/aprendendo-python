@@ -21,4 +21,3 @@ print('{0} years old {1}'.format(age, name))
 
 # example print 3.6+
 print(f'{name} years old {age}')
-
