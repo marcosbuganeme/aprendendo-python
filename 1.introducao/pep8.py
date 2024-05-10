@@ -36,6 +36,30 @@ if 'a' in 'banana':
 - Separate functions and definitions with two blank lines;
 - Methods and classes within a class should be separated by a single blank line;
 
+[5] - Imports
+- Imports should be done in separate lines;
+
+#import error
+import sys, os
+
+#import correct
+import sys
+import os
+
+#Not problem with:
+from types import StringType, ListType
+
+#if there are many imports from the same package, it is recommended to do:
+
+from types import (
+    StringType,
+    ListType,
+    SetType,
+    OutroType
+)
+
+#imports should be placed at the beginning of the file, after any comments or documentation and before global variables and constants.
+
 
 """
 
