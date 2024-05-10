@@ -61,5 +61,39 @@ from types import (
 #imports should be placed at the beginning of the file, after any comments or documentation and before global variables and constants.
 
 
+[6] - Spaces in expressions and instructions;
+
+# not recommended
+function( think[1], { other; 2 } )
+
+# recommended
+function(think[1], {other; 2})
+
+# not recommended
+function( 4 )
+
+# recommended
+function(4)
+
+# not recommended
+dict ['key'] = list [index]
+
+# recommended
+dict['key'] = list[index]
+
+# not recommended
+x               = 1
+y               = 3
+long_variable   = 5
+
+
+# recommended
+x = 1
+y = 3
+long_variable = 5
+
+[7] - Always end an instruction with a line break;
+print('Hello')
+
 """
 
