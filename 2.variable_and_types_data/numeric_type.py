@@ -15,3 +15,6 @@ print(number)
 
 number.__add__(1)
 print(number)
+
+new_number = 1_000_000_000_000
+print(new_number)
