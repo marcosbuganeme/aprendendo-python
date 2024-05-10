@@ -20,7 +20,6 @@ else:
 
 # Using the 'or' operator
 
-active = True
 logged = False
 
 if active or logged:
@@ -29,9 +28,6 @@ else:
     print("You are not allowed to enter the system")
 
 # Using the 'not' operator
-
-active = True
-logged = True
 
 if not active:
     print("You are not allowed to enter the system")
