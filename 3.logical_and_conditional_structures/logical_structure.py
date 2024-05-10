@@ -11,9 +11,20 @@ Operator binary: and, or
 active = True
 logged = True
 
+# Using the 'and' operator
+
 if active and logged:
     print("Welcome to the system")
 else:
     print("You are not allowed to enter the system")
 
+# Using the 'or' operator
+
+active = True
+logged = False
+
+if active or logged:
+    print("Welcome to the system")
+else:
+    print("You are not allowed to enter the system")
 
