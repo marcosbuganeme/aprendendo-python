@@ -28,4 +28,10 @@ def sum_two():
 number = 4
 number_imper = 5
 
+[3] - Use 4 spaces for indentation! (Not use tab)
+if 'a' in 'banana':
+    print('There is a in banana')
+
+
 """
+
