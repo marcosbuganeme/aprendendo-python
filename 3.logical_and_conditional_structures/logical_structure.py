@@ -30,9 +30,9 @@ else:
 # Using the 'not' operator
 
 if not active:
-    print("You are not allowed to enter the system")
-else:
     print("Welcome to the system")
+else:
+    print("You are not allowed to enter the system")
 
 # Using the 'is' operator
 active = False
