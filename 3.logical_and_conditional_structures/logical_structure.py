@@ -33,3 +33,10 @@ if not active:
     print("You are not allowed to enter the system")
 else:
     print("Welcome to the system")
+
+# Using the 'is' operator
+active = False
+
+if active is False:
+    print("You are not allowed to enter the system")
+
