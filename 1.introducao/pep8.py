@@ -32,6 +32,10 @@ number_imper = 5
 if 'a' in 'banana':
     print('There is a in banana')
 
+[4] - Blank lines;
+- Separate functions and definitions with two blank lines;
+- Methods and classes within a class should be separated by a single blank line;
+
 
 """
 
