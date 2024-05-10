@@ -16,6 +16,6 @@ number = 42
 #print(number)
 #print(type(number))
 
-number = "Minhas bolas"
+number = "My balls"
 #print(number)
 #print(type(number))
