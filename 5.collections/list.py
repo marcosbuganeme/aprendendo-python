@@ -207,3 +207,15 @@ print(len(newList))
 
 # Example 5 - average
 print(sum(newList) / len(newList))
+
+
+
+"""
+Tuple is a collection which is ordered and unchangeable.
+"""
+
+# Transform list into tuple
+newList = [1, 2, 3, 4, 5]
+newTuple = tuple(newList)
+print(newTuple)
+print(type(newTuple)) # <class 'tuple'>
