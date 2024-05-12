@@ -1,5 +1,6 @@
 """
 Tuple is a collection which is ordered and unchangeable.
+Tuple is defined by using comma and not parenthesis.
 """
 
 # Create a tuple - Example 1
