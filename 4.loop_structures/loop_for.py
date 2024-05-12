@@ -41,4 +41,6 @@ Table of Emojis
 https://apps.timwhitlock.info/emoji/tables/unicode
 """
 
-np.random.normal(scale=5, size=2)
+for _ in range(3):
+    for num in range(1, 11):
+        print("\U0001F600" * num)
