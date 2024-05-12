@@ -198,3 +198,6 @@ print(sum(newList))
 
 print(max(newList))
 
+# Example 3 - min
+
+print(min(newList))
