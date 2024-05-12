@@ -32,3 +32,7 @@ print(countries)
 
 print(type(countries))
 
+
+# Creating a dictionary - Example 2
+
+countries = dict(BR='Brazil', US='United States', JP='Japan', DE='Germany', IT='Italy', FR='France', UK='United Kingdom', CN='China', IN='India', RU='Russia')
