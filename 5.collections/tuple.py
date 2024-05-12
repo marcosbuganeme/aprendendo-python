@@ -29,3 +29,9 @@ print(type(tupleSimple)) # its a tuple
 (4) -> Its not a tuple
 (4,) -> Its a tuple
 """
+
+
+# Error unpacking tuple
+
+#tupleOne = (1, 2, 3, 4, 5)
+#first, second, third = tupleOne
