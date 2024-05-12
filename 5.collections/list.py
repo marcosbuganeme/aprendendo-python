@@ -75,3 +75,8 @@ print(numbers)
 # Remove all elements of the list
 numbers.clear()
 print(numbers)
+
+# Duplicating elements of a list
+newList = [1, 2, 3, 4, 5]
+duplicatedList = newList * 2
+print(duplicatedList)
