@@ -80,3 +80,14 @@ for index, number in enumerate(tupleOne):
 # Count the number of occurrences of a value in a tuple
 
 print(tupleOne.count(1))
+
+# Utilize tuple every time that you need to create a collection that you don't need to change the values
+
+months = ('January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December')
+
+print(months)
+
+# Accessing index of a tuple
+
+print(months.index('January'))
+print(months[0])
