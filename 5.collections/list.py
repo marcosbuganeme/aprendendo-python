@@ -115,9 +115,9 @@ carShop = ['BMW', 'Audi', 'Mercedes', 'Toyota', 'Ford', 'Chevrolet', 'Jeep', 'Fi
 
 productOfCar = ''
 
-while productOfCar != 'quit':
+while productOfCar != 'q':
     productOfCar = input('Add a car to the list or type "quit" to exit:')
-    if productOfCar != 'quit':
+    if productOfCar != 'q':
         carShop.append(productOfCar)
 
 for car in carShop:
