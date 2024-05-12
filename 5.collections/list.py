@@ -98,3 +98,7 @@ print(learn)
 # Example 1
 learn = ' '.join(learn)
 print(learn)
+
+# Example 2
+learn = '$'.join(learn)
+print(learn)
