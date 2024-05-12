@@ -177,3 +177,6 @@ print(newList[:5])
 
 # Example 3 - list start and end
 print(newList[1:5])
+
+# Example 4 - list start and step
+print(newList[1::2])
