@@ -19,3 +19,7 @@ if 'k' in listOfCharacters:
     print("Character 'k' is in the list")
 else:
     print("Character 'k' is not in the list")
+
+unorderedList = [55, 22, 33, 44, 11, 100, 500, 1, 2, 4, 5]
+unorderedList.sort()
+print(unorderedList)
