@@ -171,3 +171,6 @@ range(start, stop, step)
 
 newList = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 print(newList[1:])
+
+# Example 2 - list end
+print(newList[:2])
