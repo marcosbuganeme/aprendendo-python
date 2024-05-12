@@ -6,3 +6,8 @@ Tuple is a collection which is ordered and unchangeable.
 
 listOneTuple = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
 print(type(listOneTuple))
+
+# Create a tuple - Example 2
+
+listTwoTuple = 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+print(type(listTwoTuple))
