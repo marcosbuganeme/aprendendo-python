@@ -54,3 +54,13 @@ print(min(exampleIntegerOrFloatNumber))
 # Method Len
 exampleIntegerOrFloatNumber = 1, 2, 3, 4, 'a'
 print(len(exampleIntegerOrFloatNumber))
+
+# Concatenation tuple
+
+tupleOne = (1, 2, 3, 4, 5)
+print(tupleOne)
+
+tupleTwo = (6, 7, 8, 9, 10)
+print(tupleTwo)
+
+print(tupleOne + tupleTwo)
