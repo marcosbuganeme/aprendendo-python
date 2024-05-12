@@ -38,3 +38,8 @@ print(type(countries))
 countries = dict(BR='Brazil', US='United States', JP='Japan', DE='Germany', IT='Italy', FR='France', UK='United Kingdom', CN='China', IN='India', RU='Russia')
 
 print(countries)
+
+
+# Accessing a element in dictionary
+
+print(countries['BR'])
