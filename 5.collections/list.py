@@ -40,3 +40,12 @@ strings = [item for item in listOfMixed if isinstance(item, str)]
 strings.sort()
 print(strings)
 
+# Combining the two lists
+# Example 1
+combinedList = numbers + strings
+print(combinedList)
+
+# Example 2
+numbers.extend(strings)
+print(numbers)
+
