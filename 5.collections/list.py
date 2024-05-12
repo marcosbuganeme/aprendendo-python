@@ -146,3 +146,7 @@ newList.append(1)
 newList.append(1)
 newList.append(1)
 print(newList)
+
+# Indexing not found
+newList[10] # IndexError: list index out of range
+#print(newList[10])
