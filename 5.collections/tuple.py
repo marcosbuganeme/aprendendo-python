@@ -68,3 +68,11 @@ print(tupleOne + tupleTwo)
 # Verify if a value exists in tuple
 
 print(1 in tupleOne)
+
+# Iterate over a tuple
+
+for number in tupleOne:
+    print(number)
+
+for index, number in enumerate(tupleOne):
+    print(index, number)
