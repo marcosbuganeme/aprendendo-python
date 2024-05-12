@@ -219,3 +219,8 @@ newList = [1, 2, 3, 4, 5]
 newTuple = tuple(newList)
 print(newTuple)
 print(type(newTuple)) # <class 'tuple'>
+
+
+# unpacking a list into variables
+a, b, c, d, e = newList
+print(a, b, c, d, e)
