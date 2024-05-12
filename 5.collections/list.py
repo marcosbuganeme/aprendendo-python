@@ -201,3 +201,6 @@ print(max(newList))
 # Example 3 - min
 
 print(min(newList))
+
+# Example 4 - average
+print(sum(newList) / len(newList))
