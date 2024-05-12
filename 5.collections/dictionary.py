@@ -49,3 +49,10 @@ print(countries.get('BR'))
 #print(countries['XL']) # KeyError: 'XL'
 
 print(countries.get('XL'))
+
+brazil = countries.get('BR')
+
+if brazil:
+    print('Country found')
+else:
+    print('Country not found')
