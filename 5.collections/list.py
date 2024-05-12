@@ -104,5 +104,21 @@ learn = '$'.join(learn)
 print(learn)
 
 # Iterating over a list
-for item in learn:
-    print(item)
+
+# Example 1 - Using a for loop
+for item in range(len(learn)):
+    print(learn[item])
+
+# Example 2 - Using a while loop
+
+carShop = ['BMW', 'Audi', 'Mercedes', 'Toyota', 'Ford', 'Chevrolet', 'Jeep', 'Fiat', 'Honda', 'Hyundai']
+
+productOfCar = ''
+
+while productOfCar != 'quit':
+    productOfCar = input('Add a car to the list or type "quit" to exit:')
+    if productOfCar != 'quit':
+        carShop.append(productOfCar)
+
+for car in carShop:
+    print(car)
