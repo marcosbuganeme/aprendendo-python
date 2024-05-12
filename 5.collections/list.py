@@ -135,3 +135,7 @@ print(colors.index('red')) # return '2' as the index of the element 'red'
 
 # Example 3
 print(colors[-3]) # orange
+
+# Generating index and value of a list
+for index, value in enumerate(colors):
+    print(index, value)
