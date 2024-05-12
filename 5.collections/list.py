@@ -53,4 +53,5 @@ print(numbers)
 print(combinedList.sort())
 print(combinedList[::1])
 print(combinedList[::-1])
+print(numbers.reverse())
 
