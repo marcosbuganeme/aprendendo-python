@@ -49,3 +49,8 @@ print(combinedList)
 numbers.extend(strings)
 print(numbers)
 
+# Sorting each list
+print(combinedList.sort())
+print(combinedList[::1])
+print(combinedList[::-1])
+
