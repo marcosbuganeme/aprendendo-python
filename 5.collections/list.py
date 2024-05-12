@@ -225,4 +225,22 @@ print(type(newTuple)) # <class 'tuple'>
 a, b, c, d, e = newList
 print(a, b, c, d, e)
 
-a, b, c, d, e, f = newList # not enough values to unpack (expected 6, got 5)
+#a, b, c, d, e, f = newList # not enough values to unpack (expected 6, got 5)
+
+"""
+Copy a list into another list
+
+Shallow Copy: Copies the reference to the objects, not the objects themselves. Useful when you need a new list or dictionary without needing independent copies of the elements inside.
+
+Deep Copy: Copies both the object and the elements within it recursively, creating fully independent copies. Use this when you need to ensure that changes to the copied object do not affect the original, especially useful for nested structures.
+"""
+
+newList = [1, 2, 3, 4, 5]
+print(newList)
+
+# Deep copy
+
+copyList = newList.copy()
+newList.append(6)
+print(newList)
+print(copyList)
