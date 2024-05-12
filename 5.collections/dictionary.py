@@ -56,3 +56,6 @@ if brazil:
     print('Country found')
 else:
     print('Country not found')
+
+# Dictionary accepts value default
+print(countries.get('XL', 'Country not found'))
