@@ -187,7 +187,7 @@ print(newList[0:10:2])
 
 
 """
-List sum, max, min, average
+List sum, max, min, len, average
 """
 
 # Example 1 - sum
@@ -202,5 +202,8 @@ print(max(newList))
 
 print(min(newList))
 
-# Example 4 - average
+# Example 4 - len
+print(len(newList))
+
+# Example 5 - average
 print(sum(newList) / len(newList))
