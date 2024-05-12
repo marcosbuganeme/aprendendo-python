@@ -46,4 +46,6 @@ print(countries['BR'])
 print(countries.get('BR'))
 
 # Accessing a element not exists in dictionary
-print(countries['XL']) # KeyError: 'XL'
+#print(countries['XL']) # KeyError: 'XL'
+
+print(countries.get('XL'))
