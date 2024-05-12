@@ -40,7 +40,9 @@ print(type(tupleSimple)) # its a tuple
 # Method add and remove not exists in tuple
 
 """
-Tuple sum, max, min, len, average only values int or float
+Tuple sum, max and min only values int or float
 """
 exampleIntegerOrFloatNumber = (1, 2, 3, 4, 5, 6.0, 7.0)
 print(sum(exampleIntegerOrFloatNumber))
+
+print(max(exampleIntegerOrFloatNumber))
