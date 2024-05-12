@@ -76,3 +76,7 @@ for number in tupleOne:
 
 for index, number in enumerate(tupleOne):
     print(index, number)
+
+# Count the number of occurrences of a value in a tuple
+
+print(tupleOne.count(1))
