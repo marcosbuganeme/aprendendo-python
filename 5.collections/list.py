@@ -102,3 +102,7 @@ print(learn)
 # Example 2
 learn = '$'.join(learn)
 print(learn)
+
+# Iterating over a list
+for item in learn:
+    print(item)
