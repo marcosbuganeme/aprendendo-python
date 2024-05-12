@@ -71,3 +71,7 @@ print(numbers)
 elementRemoved = numbers.pop(2)
 print(elementRemoved)
 print(numbers)
+
+# Remove all elements of the list
+numbers.clear()
+print(numbers)
