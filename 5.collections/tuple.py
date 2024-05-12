@@ -15,3 +15,6 @@ print(type(listTwoTuple))
 
 tupleSimple = 1
 print(type(tupleSimple)) # its a int and not a tuple
+
+tupleSimple = 1,
+print(type(tupleSimple)) # its a tuple
