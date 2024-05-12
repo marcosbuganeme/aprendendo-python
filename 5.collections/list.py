@@ -183,3 +183,13 @@ print(newList[1::2])
 
 # Example 5 - list start and end and step
 print(newList[0:10:2])
+
+
+
+"""
+List sum, max, min, average
+"""
+
+# Example 1 - sum
+
+print(sum(newList))
