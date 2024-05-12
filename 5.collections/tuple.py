@@ -110,3 +110,22 @@ Whats the difference between tuple and list?
 3. Tuples secure data integrity.
 4. Tuples are used as keys in dictionaries.
 """
+
+# Copying a tuple
+oldTuple = (1, 2, 3, 4, 5)
+print(oldTuple)
+
+newTuple = oldTuple
+
+# In tuples not problem shallow copy
+
+print(newTuple)
+print(oldTuple)
+
+otherTuple = (6, 7, 8, 9, 10)
+print(otherTuple)
+
+newTuple = newTuple + otherTuple
+
+print(newTuple)
+print(otherTuple)
