@@ -59,3 +59,9 @@ print(newListNumber)
 
 # length of the list
 print(len(newListNumber))
+
+# Remove element from the list
+print(numbers)
+elementRemoved = numbers.pop()
+print(elementRemoved)
+print(numbers)
