@@ -64,3 +64,7 @@ tupleTwo = (6, 7, 8, 9, 10)
 print(tupleTwo)
 
 print(tupleOne + tupleTwo)
+
+# Verify if a value exists in tuple
+
+print(1 in tupleOne)
