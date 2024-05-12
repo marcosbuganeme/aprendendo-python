@@ -91,3 +91,10 @@ print(months)
 
 print(months.index('January'))
 print(months[0])
+
+# If element not exists in tuple, the method index return a error
+"""
+print(months.index('Saturday')) # ValieError: tuple.index(x): x not in tuple
+
+print(months[20]) # ValueError: tuple.index(x): x not in tuple
+"""
