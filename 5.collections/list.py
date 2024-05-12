@@ -93,3 +93,8 @@ learn = "I,am,learning,Python"
 print(learn)
 learn = learn.split(',')
 print(learn)
+
+# Join a list into a string
+# Example 1
+learn = ' '.join(learn)
+print(learn)
