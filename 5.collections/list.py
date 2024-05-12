@@ -65,3 +65,9 @@ print(numbers)
 elementRemoved = numbers.pop()
 print(elementRemoved)
 print(numbers)
+
+# Remove element from index the list
+print(numbers)
+elementRemoved = numbers.pop(2)
+print(elementRemoved)
+print(numbers)
