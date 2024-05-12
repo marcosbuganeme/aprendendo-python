@@ -224,3 +224,5 @@ print(type(newTuple)) # <class 'tuple'>
 # unpacking a list into variables
 a, b, c, d, e = newList
 print(a, b, c, d, e)
+
+a, b, c, d, e, f = newList # not enough values to unpack (expected 6, got 5)
