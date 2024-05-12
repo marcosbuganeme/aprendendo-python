@@ -58,3 +58,5 @@ print(numbers.reverse())
 newListNumber = numbers.copy()
 print(newListNumber)
 
+# length of the list
+print(len(newListNumber))
