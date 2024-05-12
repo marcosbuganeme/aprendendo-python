@@ -23,3 +23,20 @@ else:
 unorderedList = [55, 22, 33, 44, 11, 100, 500, 1, 2, 4, 5]
 unorderedList.sort()
 print(unorderedList)
+
+listOfMixed = [6, 'k', 5, 'b', 3, 'a', 4, 'l', 8, 'z', 1, 77, 2]
+
+# Separating numbers and strings into different lists
+numbers = [item for item in listOfMixed if isinstance(item, int)]
+
+# Sorting each list
+numbers.sort()
+print(numbers)
+
+# Separating numbers and strings into different lists
+strings = [item for item in listOfMixed if isinstance(item, str)]
+
+# Sorting each list
+strings.sort()
+print(strings)
+
