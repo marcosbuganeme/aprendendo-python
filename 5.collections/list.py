@@ -193,3 +193,8 @@ List sum, max, min, average
 # Example 1 - sum
 
 print(sum(newList))
+
+# Example 2 - max
+
+print(max(newList))
+
