@@ -55,3 +55,6 @@ print(combinedList[::1])
 print(combinedList[::-1])
 print(numbers.reverse())
 
+newListNumber = numbers.copy()
+print(newListNumber)
+
