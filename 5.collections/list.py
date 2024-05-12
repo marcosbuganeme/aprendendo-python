@@ -244,3 +244,15 @@ copyList = newList.copy()
 newList.append(6)
 print(newList)
 print(copyList)
+
+
+# Shalllow copy
+
+newList = [1, 2, 3, 4, 5]
+print(newList)
+
+copyList = newList
+newList.append(6)
+
+print(newList)
+print(copyList)
