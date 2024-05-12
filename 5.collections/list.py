@@ -122,3 +122,16 @@ while productOfCar != 'quit':
 
 for car in carShop:
     print(car)
+
+
+# Index of an element in a list
+colors = ['green', 'blue', 'red', 'yellow', 'black', 'white', 'purple', 'orange', 'pink', 'brown']
+
+# Example 1
+print(colors[2]) # red
+
+# Example 2
+print(colors.index('red')) # return '2' as the index of the element 'red'
+
+# Example 3
+print(colors[-3]) # orange
