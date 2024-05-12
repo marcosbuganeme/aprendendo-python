@@ -14,3 +14,8 @@ else:
     print("Number 15 is not in the list")
 print(f'Number is 3 = {listOfNumbers.count(3)} x')
 
+listOfCharacters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j']
+if 'k' in listOfCharacters:
+    print("Character 'k' is in the list")
+else:
+    print("Character 'k' is not in the list")
