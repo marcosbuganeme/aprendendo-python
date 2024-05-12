@@ -80,3 +80,16 @@ print(numbers)
 newList = [1, 2, 3, 4, 5]
 duplicatedList = newList * 2
 print(duplicatedList)
+
+# Split a string into a list
+# Example 1
+learn = "I am learning Python"
+print(learn)
+learn = learn.split()
+print(learn)
+
+# Example 2
+learn = "I,am,learning,Python"
+print(learn)
+learn = learn.split(',')
+print(learn)
