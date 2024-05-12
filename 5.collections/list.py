@@ -180,3 +180,6 @@ print(newList[1:5])
 
 # Example 4 - list start and step
 print(newList[1::2])
+
+# Example 5 - list start and end and step
+print(newList[0:10:2])
