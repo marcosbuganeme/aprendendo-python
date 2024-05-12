@@ -41,6 +41,8 @@ print(type(tupleSimple)) # its a tuple
 
 """
 Tuple sum, max and min only values int or float
+
+For the values of string, you need to use the method len
 """
 exampleIntegerOrFloatNumber = (1, 2, 3, 4, 5, 6.0, 7.0)
 print(sum(exampleIntegerOrFloatNumber))
@@ -48,3 +50,7 @@ print(sum(exampleIntegerOrFloatNumber))
 print(max(exampleIntegerOrFloatNumber))
 
 print(min(exampleIntegerOrFloatNumber))
+
+# Method Len
+exampleIntegerOrFloatNumber = 1, 2, 3, 4, 'a'
+print(len(exampleIntegerOrFloatNumber))
