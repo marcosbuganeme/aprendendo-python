@@ -145,8 +145,17 @@ newList = []
 newList.append(1)
 newList.append(1)
 newList.append(1)
+newList.append(2)
+newList.append(3)
+newList.append(5)
 print(newList)
 
 # Indexing not found
-newList[10] # IndexError: list index out of range
+# newList[10] # IndexError: list index out of range
 #print(newList[10])
+
+# Search index of a value
+print(newList.index(5, 5)) # 5
+
+# Search index at range of values
+print(newList.index(5, 0, 6)) # 5
