@@ -98,3 +98,7 @@ print(months.index('Saturday')) # ValieError: tuple.index(x): x not in tuple
 
 print(months[20]) # ValueError: tuple.index(x): x not in tuple
 """
+
+# Slicing tuple example
+# tuple[start:stop:step]
+print(months[0:12:2])
