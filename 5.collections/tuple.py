@@ -102,3 +102,11 @@ print(months[20]) # ValueError: tuple.index(x): x not in tuple
 # Slicing tuple example
 # tuple[start:stop:step]
 print(months[0:12:2])
+
+"""
+Whats the difference between tuple and list?
+1. Tuples are faster than lists.
+2. Tuples are immutable.
+3. Tuples secure data integrity.
+4. Tuples are used as keys in dictionaries.
+"""
