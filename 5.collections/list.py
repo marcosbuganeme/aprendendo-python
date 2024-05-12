@@ -139,3 +139,10 @@ print(colors[-3]) # orange
 # Generating index and value of a list
 for index, value in enumerate(colors):
     print(index, value)
+
+# List accepts values repeated and any data type
+newList = []
+newList.append(1)
+newList.append(1)
+newList.append(1)
+print(newList)
