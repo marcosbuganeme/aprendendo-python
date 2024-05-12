@@ -159,3 +159,15 @@ print(newList.index(5, 5)) # 5
 
 # Search index at range of values
 print(newList.index(5, 0, 6)) # 5
+
+
+"""
+Working with slices
+list[start:stop:step]
+range(start, stop, step)
+"""
+
+# Example 1 - list start
+
+newList = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+print(newList[1:])
