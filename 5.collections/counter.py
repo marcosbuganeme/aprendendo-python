@@ -26,3 +26,27 @@ Observation of Counter result
 1. The result is a dictionary with the elements of the list as keys and their counts as values.
 2. The elements are stored as dictionary keys and their counts are stored as dictionary values.
 """
+
+
+# Example 2 - Count the frequency of words in a string
+# Count the frequency of words in a string
+
+string = 'Python is a high-level programming language. Python is a high-level programming language. Python is a high-level programming language.'
+
+result = Counter(string)
+print(result)
+
+# Example 3 - Count the frequency of words in a list
+
+textRandom = """Collections in Python are containers that are used to store collections of data, for example, list, dict, set, tuple etc. These are built-in collections. Several modules have been developed that provide additional data structures to store collections of data. One such module is the Python Counter module."""
+
+words = textRandom.split()
+
+# Print result
+result = Counter(words)
+print(result)
+
+# Search a five words most common
+
+statistics = result.most_common(5)
+print(statistics)
