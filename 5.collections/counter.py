@@ -12,3 +12,17 @@ Collections in Python are containers that are used to store collections of data,
 
 from collections import Counter
 
+listOfNumbers = [1, 2, 3, 4, 1, 2, 3, 1, 2, 1, 34, 35, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+print(f'List of numbers: {listOfNumbers}')
+
+# Print result
+result = Counter(listOfNumbers)
+
+print(result)
+print(type(result)) # Counter({1: 6, 2: 5, 3: 4, 4: 3, 5: 2, 6: 2, 7: 2, 8: 2, 9: 2, 0: 2, 34: 1, 35: 1})
+
+"""
+Observation of Counter result
+1. The result is a dictionary with the elements of the list as keys and their counts as values.
+2. The elements are stored as dictionary keys and their counts are stored as dictionary values.
+"""
