@@ -222,7 +222,28 @@ print(carShop)
 
 # clear() - Removes all the elements from the dictionary
 
-# Example 1
+# Example
 
 carShop.clear()
 print(carShop)
+
+# Copy() - Returns a copy of the dictionary
+
+revenues = {
+    'January': 1000,
+    'February': 2000,
+    'March': 3000
+}
+
+print(revenues)
+
+# Example 1 - Deep Copy
+
+newRevenue = revenues.copy()
+
+print(newRevenue)
+
+revenues['April'] = 4000
+
+print(revenues)
+print(newRevenue)
