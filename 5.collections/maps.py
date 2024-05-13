@@ -42,10 +42,12 @@ for key, value in receives.items():
     print(f'key={key} - value={value}')
 
 
-# Sum, Max, Min
+# Sum, Max, Min, len
 
 print(sum(receives.values()))
 
 print(max(receives.values()))
 
 print(min(receives.values()))
+
+print(len(receives.values()))
