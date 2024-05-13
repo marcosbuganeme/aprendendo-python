@@ -83,3 +83,18 @@ for key in countries.keys():
 
 for value in countries.values():
     print(value)
+
+# We can use any data types (int, float, string, boolean, lists, tuples) as key in dictionaries.
+
+# Example 1
+
+localities = {
+    (35.6895, 139.6917): 'Tokyo',
+    (40.7128, 74.0060): 'New York',
+    (48.8566, 2.3522): 'Paris',
+    (51.5074, 0.1278): 'London',
+    (55.7558, 37.6176): 'Moscow'
+}
+
+print(localities)
+print(type(localities))
