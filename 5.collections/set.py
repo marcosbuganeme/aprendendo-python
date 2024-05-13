@@ -121,3 +121,11 @@ newOddSet.add(7)
 
 print(oddSet)
 print(newOddSet)
+
+# Remove all elements from a set
+
+oddSet.clear()
+print(oddSet)
+
+newOddSet.clear()
+print(newOddSet)
