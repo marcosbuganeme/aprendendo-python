@@ -171,5 +171,18 @@ print(f'student only python: {studentOnlyPython}')
 studentOnlyJava = studentsJava.difference(studentsPython) # output {'Gustavo', 'Fernando'}
 print(f'student only java: {studentOnlyJava}')
 
+"""
+Operations with sets
 
-# Sum, maximum value, minimum value and number of elements
+1. sum() - Sum values
+2. max() - Maximum value
+3. min() - Minimum value
+4. len() - Number of elements
+"""
+
+newHashSet = {1, 2, 3, 4, 5, 6}
+
+# Operation Sum
+print(sum(newHashSet))
+
+
