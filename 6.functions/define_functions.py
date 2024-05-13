@@ -12,3 +12,13 @@ def greet():
 
 # Call the function
 greet()
+
+
+# Example 2 - Define a function with parameters
+def greet(name):
+    print(f"Hello, {name}!")
+
+# Call the function
+greet('Marcos')
+
+
