@@ -122,3 +122,19 @@ recipes.update({'Burger': 'American'})
 
 print(recipes)
 
+# Update a value in dictionary
+# Example 1
+
+invoices = {
+    'water': 100,
+    'gas': 200,
+    'tax': 300
+}
+
+print(invoices)
+
+invoices.update({'water': 150})
+
+print(invoices)
+
+
