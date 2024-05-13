@@ -256,3 +256,11 @@ print(newRevenue)
 newRevenue['May'] = 5000
 print(revenues)
 print(newRevenue)
+
+
+# Form not usual to create a dictionary
+# Example 1
+other = {}.fromkeys('a', 'b')
+
+print(other)
+print(type(other))
