@@ -7,12 +7,12 @@ receives = {'jan': 100, 'feb': 200, 'mar': 300, 'apr': 400, 'may': 500, 'jun': 6
 
 # Iterating over a map
 
-# Example 1
+# Example 1 - print keys
 
 for key in receives:
     print(key)
 
-# Example 2
+# Example 2 - print values
 
 for key in receives:
     print(receives[key])
