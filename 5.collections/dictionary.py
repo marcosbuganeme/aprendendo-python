@@ -74,3 +74,8 @@ for key in countries:
 for key, value in countries.items():
     print(key, value)
 
+# Print only keys
+
+for key in countries.keys():
+    print(key)
+
