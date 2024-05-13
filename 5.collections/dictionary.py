@@ -152,3 +152,11 @@ Dictionary is unordered collection of data in key:value pair form.
 5. We can use values method to get all values in dictionary.
 6. The dictionary key is unique.
 """
+
+# Remove an element from dictionary
+
+# Example 1
+invoices.pop('water')
+
+print(invoices)
+
