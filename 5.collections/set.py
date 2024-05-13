@@ -146,3 +146,11 @@ print(uniqueStudents1)
 # Example 2 - Pipe
 uniqueStudents2 = studentsPython | studentsJava # output {'Julia', 'Gustavo', 'Fernando', 'Pedro', 'Patricia', 'Marcos', 'Ellen'}
 print(uniqueStudents2)
+
+# Generate a set of students who are in both courses
+
+# Example 1 - Intersection
+
+both = studentsPython.intersection(studentsJava) # output {'Julia', 'Marcos', 'Ellen'}
+
+
