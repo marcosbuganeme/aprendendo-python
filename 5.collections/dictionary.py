@@ -160,3 +160,7 @@ invoices.pop('water')
 
 print(invoices)
 
+# Example 2
+del invoices['gas']
+
+print(invoices)
