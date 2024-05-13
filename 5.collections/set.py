@@ -153,4 +153,6 @@ print(uniqueStudents2)
 
 both = studentsPython.intersection(studentsJava) # output {'Julia', 'Marcos', 'Ellen'}
 
+# Example 2 - Intersection
 
+both = studentsPython & studentsJava # output {'Julia', 'Marcos', 'Ellen'}
