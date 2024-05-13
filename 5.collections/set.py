@@ -129,3 +129,17 @@ print(oddSet)
 
 newOddSet.clear()
 print(newOddSet)
+
+# Method mathematics in set
+
+studentsPython = {'Marcos', 'Patricia', 'Ellen', 'Pedro', 'Julia'}
+studentsJava = {'Marcos', 'Fernando', 'Gustavo', 'Julia', 'Ellen'}
+
+# Observation we can use the method union() or the operator | to join the sets
+# All students from Python and Java courses
+
+# Example 1 - Union
+
+uniqueStudents1 = studentsPython.union(studentsJava) # output {'Julia', 'Gustavo', 'Fernando', 'Pedro', 'Patricia', 'Marcos', 'Ellen'}
+print(uniqueStudents1)
+
