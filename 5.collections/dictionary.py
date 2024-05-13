@@ -137,4 +137,18 @@ invoices.update({'water': 150})
 
 print(invoices)
 
+"""
+Conclusion
+In dictionary, we can store any data types as key and value.
 
+Dictionary is mutable, we can add, update and delete elements in dictionary.
+
+Dictionary is unordered collection of data in key:value pair form.
+
+1. We can iterate over dictionary using for loop.
+2. We can use in operator to check if key exists in dictionary.
+3. We can use get method to get value of key in dictionary.
+4. We can use keys method to get all keys in dictionary.
+5. We can use values method to get all values in dictionary.
+6. The dictionary key is unique.
+"""
