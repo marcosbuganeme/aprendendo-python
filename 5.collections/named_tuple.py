@@ -37,3 +37,14 @@ print(dog)
 
 jo = dog(name='jo', age=9, breed='street dog')
 print(jo)
+
+# Access the fields of the named tuple
+
+print(jo[0])
+print(jo[1])
+print(jo[2])
+
+# Other ways to create a named tuple
+print(jo.name)
+print(jo.age)
+print(jo.breed)
