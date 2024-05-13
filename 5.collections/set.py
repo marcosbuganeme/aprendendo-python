@@ -77,3 +77,13 @@ print(type(my_set))
 
 for i in my_set:
     print(i)
+
+
+#  Remove duplicate elements from a list
+cities = {'São Paulo', 'São Paulo', 'São Paulo', 'Rio de Janeiro', 'Rio de Janeiro', 'Rio de Janeiro', 'Belo Horizonte'}
+
+citiesIntersection = {'Porto Velho', 'Goiânia', 'Rio de Janeiro', 'Belo Horizonte'}
+
+print(cities)
+print(len(cities))
+
