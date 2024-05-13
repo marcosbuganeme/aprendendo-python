@@ -32,3 +32,6 @@ print(my_deque)
 my_deque.pop()
 print(my_deque)
 
+# Remove elements from the left
+my_deque.popleft()
+print(my_deque)
