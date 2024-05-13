@@ -46,3 +46,5 @@ for key, value in receives.items():
 
 print(sum(receives.values()))
 
+print(max(receives.values()))
+
