@@ -18,3 +18,8 @@ print(my_deque)
 my_deque = deque('python')
 print(my_deque)
 
+# Add elements to the right
+my_deque.append('i')
+print(my_deque)
+
+
