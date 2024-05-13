@@ -13,3 +13,8 @@ from collections import deque
 my_deque = deque([1, 2, 3, 4, 5])
 print(my_deque)
 
+# Create a deque string
+
+my_deque = deque('python')
+print(my_deque)
+
