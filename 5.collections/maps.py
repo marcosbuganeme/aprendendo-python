@@ -16,3 +16,8 @@ for key in receives:
 
 for key in receives:
     print(receives[key])
+
+# Example 3 - print key-value pairs
+
+for key in receives:
+    print(f'In {key} received R$ {receives[key]}')
