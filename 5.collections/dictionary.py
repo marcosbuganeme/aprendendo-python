@@ -59,3 +59,7 @@ else:
 
 # Dictionary accepts value default
 print(countries.get('XL', 'Country not found'))
+
+# Return True or False if key exists in dictionary
+print('BR' in countries)
+
