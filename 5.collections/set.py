@@ -158,3 +158,11 @@ both = studentsPython.intersection(studentsJava) # output {'Julia', 'Marcos', 'E
 both = studentsPython & studentsJava # output {'Julia', 'Marcos', 'Ellen'}
 
 # Generate a set of students who are only in one course
+
+# Print students who are only in Python course
+studentOnlyPython = studentsPython.difference(studentsJava) # output {'Pedro', 'Patricia'}
+print(f'student only python: {studentOnlyPython}')
+
+# Print students who are only in Java course
+studentOnlyJava = studentsJava.difference(studentsPython) # output {'Gustavo', 'Fernando'}
+print(f'student only java: {studentOnlyJava}')
