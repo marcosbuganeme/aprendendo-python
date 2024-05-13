@@ -35,5 +35,5 @@ print(dog)
 
 # Use a named tuple
 
-ray = dog(name='Ray', age=2, breed='Poodle')
-print(ray)
+jo = dog(name='jo', age=9, breed='street dog')
+print(jo)
