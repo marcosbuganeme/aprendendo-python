@@ -216,3 +216,13 @@ carShop.append(product1)
 carShop.append(product2)
 
 print(carShop)
+
+
+# Methods in dictionary
+
+# clear() - Removes all the elements from the dictionary
+
+# Example 1
+
+carShop.clear()
+print(carShop)
