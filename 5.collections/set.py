@@ -38,3 +38,7 @@ print(my_set)  # Output: {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
 my_set = {1, 2, 3, 4, 5, 5, 4, 3, 2, 1, 10, 9, 8, 7, 6}
 print(my_set)  # Output: {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
 print(type(my_set))  # Output: <class 'set'>
+
+my_set = set(range(1, 11))
+print(my_set)  # Output: {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+print(type(my_set))  # Output: <class 'set'>
