@@ -23,3 +23,8 @@ my_deque.append('i')
 print(my_deque)
 
 
+# Add elements to the left
+my_deque.appendleft('h')
+print(my_deque)
+
+
