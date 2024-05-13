@@ -239,11 +239,20 @@ print(revenues)
 
 # Example 1 - Deep Copy
 
-newRevenue = revenues.copy()
+oldRevenue = revenues.copy()
 
-print(newRevenue)
+print(oldRevenue)
 
 revenues['April'] = 4000
 
+print(revenues)
+print(oldRevenue)
+
+# Example 2 - Shallow Copy
+
+newRevenue = revenues
+print(newRevenue)
+
+newRevenue['May'] = 5000
 print(revenues)
 print(newRevenue)
