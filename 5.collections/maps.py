@@ -12,3 +12,7 @@ receives = {'jan': 100, 'feb': 200, 'mar': 300, 'apr': 400, 'may': 500, 'jun': 6
 for key in receives:
     print(key)
 
+# Example 2
+
+for key in receives:
+    print(receives[key])
