@@ -259,8 +259,17 @@ print(newRevenue)
 
 
 # Form not usual to create a dictionary
+
 # Example 1
 other = {}.fromkeys('a', 'b')
 
+print(other)
+print(type(other))
+
+# Example 2
+
+# Method fromkeys() receives two arguments, the first is a list of keys and the second is the value for all keys.
+
+other = {}.fromkeys(['name', 'age', 'city'], 'unknown')
 print(other)
 print(type(other))
