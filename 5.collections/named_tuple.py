@@ -21,4 +21,7 @@ from collections import namedtuple
 dog = namedtuple('dog', 'name age breed')
 
 # Example 2
+dog = namedtuple('dog', 'name', 'age', 'breed')
+
+# Example 3
 dog = namedtuple('dog', ['name', 'age', 'breed'])
