@@ -69,3 +69,8 @@ print('BR' in countries)
 for key in countries:
     print(key, countries[key])
 
+# Example 2
+
+for key, value in countries.items():
+    print(key, value)
+
