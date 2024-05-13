@@ -191,4 +191,5 @@ print(max(newHashSet))
 # Operation Min
 print(min(newHashSet))
 
-
+# Operation Len
+print(len(newHashSet))
