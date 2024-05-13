@@ -152,10 +152,13 @@ print(unionExample2)
 # Example 1 - Intersection
 
 both = studentsPython.intersection(studentsJava) # output {'Julia', 'Marcos', 'Ellen'}
+print(f'example 1 - student in both courses: {both}')
 
 # Example 2 - Intersection
 
 both = studentsPython & studentsJava # output {'Julia', 'Marcos', 'Ellen'}
+print(f'example 2 - student in both courses: {both}')
+
 
 # Generate a set of students who are only in one course
 
