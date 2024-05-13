@@ -141,23 +141,24 @@ studentsJava = {'Marcos', 'Fernando', 'Gustavo', 'Julia', 'Ellen'}
 # Example 1 - Union
 
 unionExample1 = studentsPython.union(studentsJava) # output {'Julia', 'Gustavo', 'Fernando', 'Pedro', 'Patricia', 'Marcos', 'Ellen'}
-print(unionExample1)
+print(f'example 1 - all students in both courses {unionExample1}')
 
 # Example 2 - Pipe
+
 unionExample2 = studentsPython | studentsJava # output {'Julia', 'Gustavo', 'Fernando', 'Pedro', 'Patricia', 'Marcos', 'Ellen'}
-print(unionExample2)
+print(f'example 2 - all students in both courses {unionExample2}')
 
 # Generate a set of students who are in both courses
 
 # Example 1 - Intersection
 
-both = studentsPython.intersection(studentsJava) # output {'Julia', 'Marcos', 'Ellen'}
-print(f'example 1 - student in both courses: {both}')
+intersectionExample1 = studentsPython.intersection(studentsJava) # output {'Julia', 'Marcos', 'Ellen'}
+print(f'example 1 - student in both courses: {intersectionExample1}')
 
 # Example 2 - Intersection
 
-both = studentsPython & studentsJava # output {'Julia', 'Marcos', 'Ellen'}
-print(f'example 2 - student in both courses: {both}')
+intersectionExample2 = studentsPython & studentsJava # output {'Julia', 'Marcos', 'Ellen'}
+print(f'example 2 - student in both courses: {intersectionExample2}')
 
 
 # Generate a set of students who are only in one course
@@ -169,3 +170,6 @@ print(f'student only python: {studentOnlyPython}')
 # Print students who are only in Java course
 studentOnlyJava = studentsJava.difference(studentsPython) # output {'Gustavo', 'Fernando'}
 print(f'student only java: {studentOnlyJava}')
+
+
+# Sum, maximum value, minimum value and number of elements
