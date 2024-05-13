@@ -48,3 +48,4 @@ print(sum(receives.values()))
 
 print(max(receives.values()))
 
+print(min(receives.values()))
