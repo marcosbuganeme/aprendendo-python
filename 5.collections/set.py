@@ -72,3 +72,8 @@ print(f'Set: {set1} is quantity elements: {len(set1)}')
 my_set = {10, 9.5, 'Python', (1, 2, 3), range(1, 11), map(lambda x: x, range(1, 11))}
 print(my_set)
 print(type(my_set))
+
+# Iterating over a set
+
+for i in my_set:
+    print(i)
