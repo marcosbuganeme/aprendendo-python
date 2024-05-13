@@ -22,3 +22,10 @@ def greet(name):
 greet('Marcos')
 
 
+# Example 3 - Define a function with a return value
+def sum_two_numbers(a, b):
+    return a + b
+
+# Call the function
+result = sum_two_numbers(5, 3)
+print(result)
