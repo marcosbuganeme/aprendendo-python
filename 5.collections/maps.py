@@ -34,3 +34,9 @@ print(receives.values())
 
 for value in receives.values():
     print(value)
+
+
+# Unpacking key-value pairs
+
+for key, value in receives.items():
+    print(f'key={key} - value={value}')
