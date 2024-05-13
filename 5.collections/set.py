@@ -80,9 +80,7 @@ for i in my_set:
 
 
 #  Remove duplicate elements from a list
-cities = {'São Paulo', 'São Paulo', 'São Paulo', 'Rio de Janeiro', 'Rio de Janeiro', 'Rio de Janeiro', 'Belo Horizonte'}
-
-citiesIntersection = {'Porto Velho', 'Goiânia', 'Rio de Janeiro', 'Belo Horizonte'}
+cities = {'São Paulo', 'São Paulo', 'São Paulo', 'Rio de Janeiro', 'Rio de Janeiro', 'Rio de Janeiro', 'Goiânia', 'Floripa'}
 
 print(cities)
 print(len(cities))
@@ -91,5 +89,10 @@ print(len(cities))
 
 # Example 1
 cities.remove('São Paulo')
+print(cities)
+print(len(cities))
+
+# Example 2
+cities.discard('Rio de Janeiro')
 print(cities)
 print(len(cities))
