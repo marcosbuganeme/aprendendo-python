@@ -143,3 +143,6 @@ studentsJava = {'Marcos', 'Fernando', 'Gustavo', 'Julia', 'Ellen'}
 uniqueStudents1 = studentsPython.union(studentsJava) # output {'Julia', 'Gustavo', 'Fernando', 'Pedro', 'Patricia', 'Marcos', 'Ellen'}
 print(uniqueStudents1)
 
+# Example 2 - Pipe
+uniqueStudents2 = studentsPython | studentsJava # output {'Julia', 'Gustavo', 'Fernando', 'Pedro', 'Patricia', 'Marcos', 'Ellen'}
+print(uniqueStudents2)
