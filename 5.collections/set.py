@@ -66,3 +66,9 @@ print(f'Dictionary: {dict1} is quantity elements: {len(dict1)}')
 # Sets is not accepted values repeated
 set1 = {10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
 print(f'Set: {set1} is quantity elements: {len(set1)}')
+
+# Types of data that can be used in a set (int, float, string, tuple, range, map, filter, zip, enumerate)
+
+my_set = {10, 9.5, 'Python', (1, 2, 3), range(1, 11), map(lambda x: x, range(1, 11))}
+print(my_set)
+print(type(my_set))
