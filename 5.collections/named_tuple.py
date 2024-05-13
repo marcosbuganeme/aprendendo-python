@@ -31,3 +31,9 @@ print(dog)
 # Example 3
 dog = namedtuple('dog', ['name', 'age', 'breed'])
 print(dog)
+
+
+# Use a named tuple
+
+ray = dog(name='Ray', age=2, breed='Poodle')
+print(ray)
