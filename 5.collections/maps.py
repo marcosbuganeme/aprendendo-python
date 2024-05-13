@@ -40,3 +40,9 @@ for value in receives.values():
 
 for key, value in receives.items():
     print(f'key={key} - value={value}')
+
+
+# Sum, Max, Min
+
+print(sum(receives.values()))
+
