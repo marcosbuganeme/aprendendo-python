@@ -17,11 +17,17 @@ from collections import namedtuple
 # Define a named tuple
 
 # Creation of a named tuple
+
 # Example 1
 dog = namedtuple('dog', 'name age breed')
+print(dog)
+
 
 # Example 2
-dog = namedtuple('dog', 'name', 'age', 'breed')
+dog = namedtuple('dog', 'name, age, breed')
+print(dog)
+
 
 # Example 3
 dog = namedtuple('dog', ['name', 'age', 'breed'])
+print(dog)
