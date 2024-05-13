@@ -86,7 +86,7 @@ for value in countries.values():
 
 # We can use any data types (int, float, string, boolean, lists, tuples) as key in dictionaries.
 
-# Example 1
+# Example 1 - Tuple as key in dictionary
 
 localities = {
     (35.6895, 139.6917): 'Tokyo',
@@ -98,3 +98,21 @@ localities = {
 
 print(localities)
 print(type(localities))
+
+# Adding a new element in dictionary
+# Example create a new dictionary with empty dictionary and add elements
+recipes = {
+    'Pasta': 'Italian',
+    'Sushi': 'Japanese',
+    'Tacos': 'Mexican'
+}
+
+print(recipes)
+
+# Example 1
+
+recipes['Insects'] = 'Chinese'
+
+print(recipes)
+
+
