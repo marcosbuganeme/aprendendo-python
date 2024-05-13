@@ -273,3 +273,8 @@ print(type(other))
 other = {}.fromkeys(['name', 'age', 'city'], 'unknown')
 print(other)
 print(type(other))
+
+# Example 3
+
+other = {}.fromkeys(range(1, 11), 'unknown')
+print(other)
