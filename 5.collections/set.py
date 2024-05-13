@@ -188,4 +188,7 @@ print(sum(newHashSet))
 # Operation Max
 print(max(newHashSet))
 
+# Operation Min
+print(min(newHashSet))
+
 
