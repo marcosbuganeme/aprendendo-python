@@ -42,3 +42,27 @@ print(type(my_set))  # Output: <class 'set'>
 my_set = set(range(1, 11))
 print(my_set)  # Output: {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
 print(type(my_set))  # Output: <class 'set'>
+
+# Condition: Set cannot have mutable elements like list, set, dictionary.
+
+# Example 3: Using set comprehension
+my_set = {x for x in range(1, 11)}
+print(my_set)  # Output: {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+
+# Comparing list, tuples, dictionaries and sets
+
+# Lists accepted values repeated
+list1 = [10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+print(f'List: {list1} is quantity elements: {len(list1)}')
+
+# Tuples accepted values repeated
+tuple1 = (10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+print(f'Tuple: {tuple1} is quantity elements: {len(tuple1)}')
+
+# Dictionaries is not accepted values repeated
+dict1 = {}.fromkeys([10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 'default')
+print(f'Dictionary: {dict1} is quantity elements: {len(dict1)}')
+
+# Sets is not accepted values repeated
+set1 = {10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+print(f'Set: {set1} is quantity elements: {len(set1)}')
