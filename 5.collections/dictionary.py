@@ -155,12 +155,32 @@ Dictionary is unordered collection of data in key:value pair form.
 
 # Remove an element from dictionary
 
-# Example 1
+# Example 1 - Recovery the value of element removed
 invoices.pop('water')
 
 print(invoices)
 
-# Example 2
+# Example 2 - Remove an element without recovery the value
 del invoices['gas']
 
 print(invoices)
+
+"""
+Use cases in the real world apply dictionary in Python
+
+Dictionaries in Python are extremely versatile and useful in many programming scenarios. Here are some common use cases for using dictionaries:
+
+1. Storing Configuration Data: Dictionaries are ideal for storing application settings or user preferences due to their key-value structure, making it easy to retrieve and modify specific settings.
+
+2. Implementing a Cache: Using dictionaries to store the results of computationally expensive operations allows previous results to be quickly retrieved using keys, reducing the need to repeat calculations.
+
+3. Frequency Counting: Dictionaries are useful for counting the frequency of items in a collection, such as counting the number of times each word appears in a text.
+
+4. Mapping Relationships Between Data: Dictionaries can be used to map relationships between different types of data, such as associating user IDs with their information or products with their prices.
+
+5. Modeling Objects or Structures: In some cases, it may be practical to model objects or complex structures as dictionaries, especially when the data are dynamic and the structure can vary.
+
+6. Grouping Functions or Operations: A dictionary can store functions as values, allowing dynamic access to different operations or commands based on a key.
+
+7. Unpacking Data into Functions: Dictionaries can be used to unpack data directly into function arguments using the unpacking operator (**), which is particularly useful in functions that require a large number of named parameters.
+"""
