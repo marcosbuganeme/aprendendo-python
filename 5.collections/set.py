@@ -140,12 +140,12 @@ studentsJava = {'Marcos', 'Fernando', 'Gustavo', 'Julia', 'Ellen'}
 
 # Example 1 - Union
 
-uniqueStudents1 = studentsPython.union(studentsJava) # output {'Julia', 'Gustavo', 'Fernando', 'Pedro', 'Patricia', 'Marcos', 'Ellen'}
-print(uniqueStudents1)
+unionExample1 = studentsPython.union(studentsJava) # output {'Julia', 'Gustavo', 'Fernando', 'Pedro', 'Patricia', 'Marcos', 'Ellen'}
+print(unionExample1)
 
 # Example 2 - Pipe
-uniqueStudents2 = studentsPython | studentsJava # output {'Julia', 'Gustavo', 'Fernando', 'Pedro', 'Patricia', 'Marcos', 'Ellen'}
-print(uniqueStudents2)
+unionExample2 = studentsPython | studentsJava # output {'Julia', 'Gustavo', 'Fernando', 'Pedro', 'Patricia', 'Marcos', 'Ellen'}
+print(unionExample2)
 
 # Generate a set of students who are in both courses
 
@@ -156,3 +156,5 @@ both = studentsPython.intersection(studentsJava) # output {'Julia', 'Marcos', 'E
 # Example 2 - Intersection
 
 both = studentsPython & studentsJava # output {'Julia', 'Marcos', 'Ellen'}
+
+# Generate a set of students who are only in one course
