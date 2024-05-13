@@ -16,5 +16,9 @@ from collections import namedtuple
 
 # Define a named tuple
 
-# Creation of a named tuple - Example 1
+# Creation of a named tuple
+# Example 1
 dog = namedtuple('dog', 'name age breed')
+
+# Example 2
+dog = namedtuple('dog', ['name', 'age', 'breed'])
