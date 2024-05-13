@@ -63,3 +63,9 @@ print(countries.get('XL', 'Country not found'))
 # Return True or False if key exists in dictionary
 print('BR' in countries)
 
+# Iterating over dictionary
+# Example 1
+
+for key in countries:
+    print(key, countries[key])
+
