@@ -29,3 +29,14 @@ def sum_two_numbers(a, b):
 # Call the function
 result = sum_two_numbers(5, 3)
 print(result)
+
+# DRY Principle
+# Don't Repeat Yourself
+# Reuse code by defining functions
+
+# Example 4 - Define a function with default arguments
+def greet(name='World !!'):
+    print(f"Hello, {name}!")
+
+# Call the function
+greet()
