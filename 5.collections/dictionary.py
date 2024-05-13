@@ -116,3 +116,9 @@ recipes['Insects'] = 'Chinese'
 print(recipes)
 
 
+# Example 2
+
+recipes.update({'Burger': 'American'})
+
+print(recipes)
+
