@@ -27,4 +27,4 @@ print(dictionary)
 
 # Evict KeyError and return the default value
 
-print(f'print dictionary -> {dictionary['job']}')
+print(f'-> {dictionary['job']}') # -> 0
