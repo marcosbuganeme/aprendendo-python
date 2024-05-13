@@ -96,3 +96,18 @@ print(len(cities))
 cities.discard('Rio de Janeiro')
 print(cities)
 print(len(cities))
+
+# Observation: If the element does not exist in the set, the remove() method will raise an error, while the discard() method will not.
+
+# Copying a set to another set
+oddSet = {1, 3, 5}
+print(oddSet)
+
+
+# Example 1 - Deep Copy
+newOddSet = oddSet.copy()
+
+newOddSet.add(7)
+
+print(oddSet)
+print(newOddSet)
