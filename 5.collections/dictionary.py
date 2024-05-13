@@ -184,3 +184,35 @@ Dictionaries in Python are extremely versatile and useful in many programming sc
 
 7. Unpacking Data into Functions: Dictionaries can be used to unpack data directly into function arguments using the unpacking operator (**), which is particularly useful in functions that require a large number of named parameters.
 """
+
+# Use the list
+carShop = []
+
+product1 = ['Playstation 5', 5000, 'Sony']
+product2 = ['Xbox Series X', 4500, 'Microsoft']
+
+carShop.append(product1)
+carShop.append(product2)
+
+print(carShop)
+
+# Use the tuple
+carShop = []
+
+product1 = ('Playstation 5', 5000, 'Sony')
+product2 = ('Xbox Series X', 4500, 'Microsoft')
+
+carShop = (product1, product2)
+
+print(carShop)
+
+# Use the dictionary
+carShop = []
+
+product1 = {'name': 'Playstation 5', 'price': 5000, 'brand': 'Sony'}
+product2 = {'name': 'Xbox Series X', 'price': 4500, 'brand': 'Microsoft'}
+
+carShop.append(product1)
+carShop.append(product2)
+
+print(carShop)
