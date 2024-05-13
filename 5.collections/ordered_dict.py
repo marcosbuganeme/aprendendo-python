@@ -39,3 +39,4 @@ dict1 = OrderedDict({'a': 1, 'b': 2})
 dict2 = OrderedDict({'b': 2, 'a': 1})
 
 print(dict1 == dict2) # False
+# Order of the elements in the dictionary matters
