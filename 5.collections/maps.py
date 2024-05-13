@@ -7,6 +7,8 @@ receives = {'jan': 100, 'feb': 200, 'mar': 300, 'apr': 400, 'may': 500, 'jun': 6
 
 # Iterating over a map
 
+# Not recommended way to iterate over a map an Examples 1, 2 and 3
+
 # Example 1 - print keys
 
 for key in receives:
@@ -21,3 +23,12 @@ for key in receives:
 
 for key in receives:
     print(f'In {key} received R$ {receives[key]}')
+
+# Example 4 - Recommended way to iterate over a map
+print(receives.keys())
+
+for key in receives.keys():
+    print(key)
+
+for key in receives.keys():
+    print(receives[key])
