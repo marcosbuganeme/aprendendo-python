@@ -30,5 +30,7 @@ print(receives.keys())
 for key in receives.keys():
     print(key)
 
-for key in receives.keys():
-    print(receives[key])
+print(receives.values())
+
+for value in receives.values():
+    print(value)
