@@ -28,3 +28,7 @@ my_deque.appendleft('h')
 print(my_deque)
 
 
+# Remove elements from the right
+my_deque.pop()
+print(my_deque)
+
