@@ -105,7 +105,17 @@ print(oddSet)
 
 
 # Example 1 - Deep Copy
+
 newOddSet = oddSet.copy()
+
+newOddSet.add(7)
+
+print(oddSet)
+print(newOddSet)
+
+# Example 2 - Shallow Copy
+
+newOddSet = oddSet
 
 newOddSet.add(7)
 
