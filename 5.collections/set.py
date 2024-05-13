@@ -87,3 +87,9 @@ citiesIntersection = {'Porto Velho', 'Goiânia', 'Rio de Janeiro', 'Belo Horizon
 print(cities)
 print(len(cities))
 
+# Remove an element explicit at set
+
+# Example 1
+cities.remove('São Paulo')
+print(cities)
+print(len(cities))
