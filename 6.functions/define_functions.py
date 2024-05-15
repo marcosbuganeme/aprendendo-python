@@ -40,3 +40,9 @@ def greet(name='World !!'):
 
 # Call the function
 greet()
+
+def sing_happy_birthday():
+    print('Happy birthday to you');
+
+for n in range(5):
+    sing_happy_birthday()
