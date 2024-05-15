@@ -46,3 +46,20 @@ def sing_happy_birthday():
 
 for n in range(5):
     sing_happy_birthday()
+
+"""
+Functions with return
+"""
+
+def sum_arrays(arr1, arr2):
+    # Soma todos os elementos dos dois arrays
+    sum_total = sum(arr1) + sum(arr2)
+    return sum_total
+
+# Example the use
+
+array1 = [1, 2, 3]
+array2 = [4, 5, 6]
+
+result = sum_arrays(array1, array2)
+print("Sum with arrays:", result)
